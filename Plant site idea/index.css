@@ -1,0 +1,17 @@
+body {
+  font-family: "Cormorant Unicase", serif;
+  background-image: url("veggie.jpg");
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+table {
+  width: 100%;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<title>Plant Planning Guide</title>
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <h2>When to sow, plant outdoors and harvest in zone 7a</h2>
+</head>
+<body>
+  <table id="tbl">
+    <tr>
+      <th>Plant Name</th>
+      <th>Time to Sow indoors</th>
+      <th>Time Until Harvest</th>
+    </tr>
+    <tr>
+      <td>
+        <input
+          id="plantNameEntered"
+          type="text"
+          name="plantName"
+          placeholder="Enter Name..."
+          onkeypress="insertText(event);"
+        />
+      </td>
+      <td id="sowTime"></td>
+      <td id="harvestTime"></td>
+      <td>
+        <input
+          type="submit"
+          class="button"
+          value="Add another plant"
+          onclick="addField(this);"
+        />
+      </td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
